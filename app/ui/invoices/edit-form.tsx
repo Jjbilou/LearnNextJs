@@ -18,7 +18,6 @@ export default function EditInvoiceForm({
   invoice: InvoiceForm;
   customers: CustomerField[];
 }) {
-  // Bind the invoice id to the updateInvoice Server Action
   const updateInvoiceWithId = updateInvoice.bind(null, invoice.id);
 
   return (
